@@ -8,6 +8,11 @@ import { ServiceComponent } from './service/service.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { QandaComponent } from './qanda/qanda.component';
+import { HomeCarouselComponent } from './home-carousel/home-carousel.component';
+import { HomeServiceComponent } from './home-service/home-service.component';
+import { HomePortfolioComponent } from './home-portfolio/home-portfolio.component';
+import { HomeEndorsementComponent } from './home-endorsement/home-endorsement.component';
+import { HomeContactComponent } from './home-contact/home-contact.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +21,12 @@ import { QandaComponent } from './qanda/qanda.component';
     ServiceComponent,
     PortfolioComponent,
     AboutusComponent,
-    QandaComponent
+    QandaComponent,
+    HomeCarouselComponent,
+    HomeServiceComponent,
+    HomePortfolioComponent,
+    HomeEndorsementComponent,
+    HomeContactComponent
   ],
   imports: [
     BrowserModule,
