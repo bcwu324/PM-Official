@@ -26,7 +26,7 @@ import { HomeContactComponent } from './home-contact/home-contact.component';
     HomeServiceComponent,
     HomePortfolioComponent,
     HomeEndorsementComponent,
-    HomeContactComponent
+    HomeContactComponent,
   ],
   imports: [
     BrowserModule,
