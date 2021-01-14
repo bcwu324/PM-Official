@@ -13,6 +13,7 @@ import { HomeServiceComponent } from './home-service/home-service.component';
 import { HomePortfolioComponent } from './home-portfolio/home-portfolio.component';
 import { HomeEndorsementComponent } from './home-endorsement/home-endorsement.component';
 import { HomeContactComponent } from './home-contact/home-contact.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { HomeContactComponent } from './home-contact/home-contact.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
