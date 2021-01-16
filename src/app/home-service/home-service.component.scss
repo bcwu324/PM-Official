@@ -1,0 +1,118 @@
+#homeServiceContent01{
+    height: 200px;
+    #homeServiceTitle{
+        padding-top: 3rem;
+        font-size: 1rem;
+        letter-spacing: 0.18rem;
+    }
+    #homeServiceSubTitle{
+        font-size: 2.2rem;
+        letter-spacing: 0.2rem;
+    }
+    #homeServiceTitleHr{
+        border: 0.1rem solid #b18247;
+        background-color: #b18247;
+        width: 5rem;
+        margin-top: 1rem;
+    }
+}
+
+#homeServiceContent02{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    #homeServiceImage{
+        width: 93%;
+    }
+}
+
+#homeServiceContent03{
+    height: 300px;
+    margin-top: -300px;
+    #homeServiceArticle{
+        // margin-top: 2rem;
+        font-size: 0.8rem;
+        font-weight: 600;
+        line-height: 1.5rem;
+    }
+    #homeServiceButton{
+        color:white;
+        background-color: #b18247;
+        font-size: 0.8rem;
+        margin-top: 2rem;
+        padding-left:2.4rem ;
+        padding-right:2.4rem ;
+    }
+}
+@media (max-width: 767px) {
+    #homeServiceContent01{
+        height: auto;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        #homeServiceTitle{
+            margin-bottom: 0.3rem;
+            padding-top: 0.8rem;
+            text-align: center;
+            font-size: 0.7rem;
+            letter-spacing: 0.1rem;
+        }
+        #homeServiceSubTitle{
+            margin-bottom: 0.4rem;
+            text-align: center;
+            letter-spacing: 0.2rem;
+            font-size: 1.3rem;
+        }
+        #homeServiceTitleHr{
+            border: 0.07rem solid #b18247;
+            width: 3.5rem;
+            margin-top: 1rem;
+            margin: 0 auto;
+            margin-top: 0.6rem;
+        }
+    }
+    #homeServiceContent02{
+        height: auto;
+        #homeServiceImage{
+            width: 100%;
+        }
+    }
+    #homeServiceContent03{
+        height: auto;
+        margin-top: 0px;
+        #homeServiceArticle{
+            margin-top: 0.7rem;
+        }
+        #homeServiceButton{
+            display: block;
+            margin: auto;
+            margin-bottom: 1.6rem;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            padding-top: 0.3rem;
+            padding-bottom: 0.3rem;
+            // font-size: 1rem;
+        }
+    }
+    
+  }
+  @media (min-width: 1400px) { 
+    .container{
+        max-width: 1350px;
+    }
+ }
+  @media (min-width: 1700px) { 
+      .container{
+          max-width: 1650px;
+      }
+   }
+  @media (min-width: 1900px) { 
+      .container{
+          max-width: 1800px;
+      }
+      #homeServiceContent02{
+        #homeServiceImage{
+            width: 83%;
+        }
+    }
+   }
