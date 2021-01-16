@@ -1,0 +1,20 @@
+.navbar{
+    padding: 1rem 1rem 1rem 3rem;
+    position: absolute;
+    width: 100%;
+    #homeLogo{
+        color: white;
+        font-size: 1.7rem;
+        text-shadow:  0.05rem 0.1rem 0.15rem gray;
+    }
+    #navBarButton{
+    }
+    #navbarNav{
+        li{
+            a{
+                color: white;
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
