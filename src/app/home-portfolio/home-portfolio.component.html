@@ -1,11 +1,11 @@
-<div class="container px-0 py-5">
+<div class="container">
     <div class="card-columns">
         <div class="card rounded-0 shadow-sm" *ngFor="let portfolio of portfolios">
             <div class="imgContainer" style="position: relative;overflow: hidden;">
                 <img class="card-img-top rounded-0 img-fluid" src={{portfolio.url}} alt="Card image cap"
                     style="position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);">
             </div>
-            <div class="card-body" style="padding: 1rem 0.5rem;">
+            <div class="card-body">
                 <!-- <h4 class="card-title">01 Card title that wraps to a new line</h4> -->
                 <p class="card-text" style="font-weight: 600;">{{portfolio.name}}</p>
             </div>
