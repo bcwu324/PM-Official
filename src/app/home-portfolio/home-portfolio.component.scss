@@ -1,62 +1,3 @@
-// increase break point
-@media (min-width: 1400px) { 
-    .container{
-        max-width: 1350px;
-    }
- }
-@media (min-width: 1700px) { 
-      .container{
-          max-width: 1650px;
-      }
-}
-@media (min-width: 1900px) { 
-      .container{
-          max-width: 1750px;
-      }
-      #homeServiceContent02{
-        #homeServiceImage{
-            width: 83%;
-        }
-      }
-};
-
-@media (min-width: 768px) { 
-    .container{
-        padding:  3rem 0;
-    }
-    .card{
-        margin-bottom: 1.1rem;
-        .card-body{
-            padding:1rem 0.7rem;
-        }
-    }
-}
-@media (max-width: 767px) { 
-    .container{
-        padding: 3rem 0.6rem;
-    }
-    .card{
-        margin-bottom: 1.1rem;
-        .card-body{
-            padding:0.5rem 0.5rem;
-            font-size: 0.7rem;
-        }
-    }
-}
-@media (max-width: 575px) { 
-    .container{
-        padding: 3rem 0.8rem;
-    }
-    .card{
-        margin-right: -0.3rem;
-        margin-left: -0.3rem;
-        margin-bottom: 0.3rem;
-        .card-body{
-            padding:0.2rem 0.2rem;
-            font-size: 0.5rem;
-        }
-    }
-}
 
 .card:nth-child(1) .imgContainer{
     padding-bottom: 53%;
@@ -89,3 +30,103 @@
 .card:nth-child(9) .imgContainer{
     padding-bottom: 113%;
 }
+
+@media (min-width: 768px) { 
+    .container{
+        padding:  3rem 0;
+        #homePortfolioContent{
+            #homePortfolioTitle{
+                padding-top: 3rem;
+                text-align: center;
+                font-size: 1rem;
+                letter-spacing: 0.18rem;
+            }
+            #homePortfolioSubTitle{
+                text-align: center;
+                font-size: 2.2rem;
+                letter-spacing: 0.2rem;
+
+            }
+            #homePortfolioTitleHr{
+                border: 0.1rem solid #b18247;
+                background-color: #b18247;
+                width: 5rem;
+                margin-top: 1rem;
+                margin: auto;
+
+            }
+        }
+        .card-columns{
+            padding-top: 4rem;
+            .card{
+                margin-bottom: 1.2rem;
+                .card-body{
+                    padding:0.7rem 0.7rem;
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+    
+}
+@media (max-width: 767px) { 
+    .container{
+        padding: 3rem 0.6rem;
+        #homePortfolioContent{
+            #homePortfolioTitle{
+                text-align: center;
+                margin-bottom: 0.3rem;
+                padding-top: 0.8rem;
+                text-align: center;
+                font-size: 0.7rem;
+                letter-spacing: 0.1rem;
+            }
+            #homePortfolioSubTitle{
+                margin-bottom: 0.4rem;
+                text-align: center;
+                letter-spacing: 0.2rem;
+                font-size: 1.3rem;
+
+            }
+            #homePortfolioTitleHr{
+                border: 0.07rem solid #b18247;
+                background-color: #b18247;
+                width: 3.5rem;
+                margin-top: 1rem;
+                margin: 0 auto;
+                margin-top: 0.6rem;
+            }
+        }
+        .card-columns{
+            width: 100%;
+            padding-top: 1.5rem;
+            .card{
+                margin-bottom: 0.5rem;
+                .card-body{
+                    padding:0.3rem 0.3rem;
+                    font-size: 0.5rem;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 575px) { 
+    .container{
+        padding: 3rem 0.8rem;
+    }
+    .card-columns{
+        .card{
+            margin-right: -0.3rem;
+            margin-left: -0.3rem;
+            margin-bottom: 0.3rem;
+            .card-body{
+                padding:0.2rem 0.2rem;
+                font-size: 0.5rem;
+            }
+        }
+    }
+    .card:nth-child(5){
+        margin-top: 3.5rem;
+    }
+}
+
