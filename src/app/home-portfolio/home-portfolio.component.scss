@@ -66,6 +66,16 @@
                 }
             }
         }
+        #homePortfolioButton{
+            color:white;
+            background-color: #b18247;
+            font-size: 0.8rem;
+            margin-top: 2rem;
+            padding-left:2.4rem ;
+            padding-right:2.4rem ;
+            margin: 1.5rem auto 0;
+            display: block;
+        }
     }
     
 }
@@ -108,25 +118,71 @@
                 }
             }
         }
+        #homePortfolioButton{
+            color:white;
+            background-color: #b18247;
+            display: block;
+            margin: auto;
+            margin-bottom: 1.6rem;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            padding-top: 0.3rem;
+            padding-bottom: 0.3rem;
+            font-size: 0.8rem;
+        }
     }
 }
 @media (max-width: 575px) { 
     .container{
-        padding: 3rem 0.8rem;
-    }
+        padding: 0.5rem 0.8rem;
+    
     .card-columns{
         .card{
             margin-right: -0.3rem;
             margin-left: -0.3rem;
-            margin-bottom: 0.3rem;
+            margin-bottom: 0.4rem;
             .card-body{
                 padding:0.2rem 0.2rem;
                 font-size: 0.5rem;
             }
         }
     }
+    #homePortfolioButton{
+        color:white;
+        background-color: #b18247;
+        font-size: 0.8rem;
+        margin-top: 2rem;
+        padding-left:1.5rem ;
+        padding-right:1.5rem ;
+        margin: 0 auto 1.5rem;
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+        display: block;
+        font-size: 0.7rem;
+    }
     .card:nth-child(5){
         margin-top: 3.5rem;
     }
 }
+}
 
+@media (min-width: 1400px) { 
+    .container{
+        max-width: 1350px;
+    }
+ }
+  @media (min-width: 1700px) { 
+      .container{
+          max-width: 1650px;
+      }
+   }
+  @media (min-width: 1900px) { 
+      .container{
+          max-width: 1750px;
+      }
+      #homeServiceContent02{
+        #homeServiceImage{
+            width: 83%;
+        }
+    }
+   }

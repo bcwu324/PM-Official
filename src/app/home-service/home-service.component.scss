@@ -1,3 +1,7 @@
+.container{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
 #homeServiceContent01{
     height: 200px;
     #homeServiceTitle{
@@ -45,6 +49,7 @@
         padding-right:2.4rem ;
     }
 }
+
 @media (max-width: 767px) {
     #homeServiceContent01{
         height: auto;
@@ -94,7 +99,20 @@
             // font-size: 1rem;
         }
     }
-    
+
+  }
+  @media (max-width: 575px) {
+    #homeServiceContent03{
+        #homeServiceButton{
+            font-size: 0.7rem;
+        }
+    }
+  }
+  @media (max-width: 575px) {
+      .container{
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+      }
   }
   @media (min-width: 1400px) { 
     .container{
