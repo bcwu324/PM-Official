@@ -6,21 +6,21 @@
                 <h2 id="homeEndorsementSubTitle" class="color01 border ">名人推薦</h2>
                 <div id="homeEndorsementTitleHr"></div>
             </div>
-            <div class="col-md-12 border ">
+            <div id="carouselContainer" class="col-md-12 border px-0">
                 <owl-carousel-o [options]="customOptions">
                     <ng-template carouselSlide *ngFor="let endorsement of endorsements">
-                        <div class="slide border" style="height: 430px;">
-                            <!-- <img src="https://via.placeholder.com/600/92c952" alt="img 1"> -->
+                        <div id="cardContainer" class="slide border"
+                            style="height: 470px;padding-bottom: 2rem;z-index: 1;">
                             <div class="border h-100 m-auto homeEndorsementCard"
-                                style="background-color: white;border-radius: 1.2rem ;overflow: hidden;">
-                                <div class="border w-100 d-flex " style="line-height:3.8rem;">
+                                style="background-color: white;border-radius: 1.2rem ;overflow: hidden;box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.06);">
+                                <div id="cardTitle" class="border w-100 d-flex " style="line-height:3.8rem;">
                                     <div class="border " style="width:25% ;vertical-align: middl;text-align: center;;">
-                                        <div class="border rounded-circle"
+                                        <div id="headShot" class="border rounded-circle"
                                             [ngStyle]="{'background-image': 'url('+ endorsement.headShotUrl + ')'}"
                                             style="width: 2.8rem;height:2.8rem;vertical-align: middle;display: inline-block;background-position: center;background-size: cover;background-repeat: no-repeat;">
                                         </div>
                                     </div>
-                                    <div class="border text-truncate"
+                                    <div id="name" class="border text-truncate"
                                         style="width: 50%;font-size: 0.8rem;font-weight: 600;">{{endorsement.name}}
                                     </div>
                                 </div>

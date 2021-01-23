@@ -25,7 +25,7 @@ export class HomeEndorsementComponent implements OnInit {
       name: 'Twins 大心小心',
       headShotUrl: '../../assets/images/homePortfolio/個人藝術照.jpg',
       endorsementPicUrl: '../../assets/images/homePortfolio/新生兒寫真.JPG',
-      endorsementDescription: '攝影團隊讓人感覺放鬆，所以拍起照來格外自在。現在回想起當天拍攝的過程，還是覺得攝影師好厲害，厲害在於快門不必按得多、而是精，張張到位，被拍的我們也不會被要求擺太多POSE、可以自然的呈現。'
+      endorsementDescription: '攝影團隊讓人感覺放鬆，拍起照來格外自在。現在回想起當天拍攝的過程，覺得攝影師好厲害，厲害在於快門不必按得多、而是精，張張到位，被拍的我們也不會被要求擺太多POSE、可以自然的呈現。'
     },
     {
       name: '茜茜 育兒生活好好玩',
@@ -37,7 +37,7 @@ export class HomeEndorsementComponent implements OnInit {
       name: 'Twins 大心小心',
       headShotUrl: '../../assets/images/homePortfolio/個人藝術照.jpg',
       endorsementPicUrl: '../../assets/images/homePortfolio/新生兒寫真.JPG',
-      endorsementDescription: '攝影團隊讓人感覺放鬆，所以拍起照來格外自在。現在回想起當天拍攝的過程，還是覺得攝影師好厲害，厲害在於快門不必按得多、而是精，張張到位，被拍的我們也不會被要求擺太多POSE、可以自然的呈現。'
+      endorsementDescription: '攝影團隊讓人感覺放鬆，拍起照來格外自在。現在回想起當天拍攝的過程，覺得攝影師好厲害，厲害在於快門不必按得多、而是精，張張到位，被拍的我們也不會被要求擺太多POSE、可以自然的呈現。'
     },
   ]
   customOptions: OwlOptions = {
@@ -61,7 +61,7 @@ export class HomeEndorsementComponent implements OnInit {
       760: {
         items: 2
       },
-      900: {
+      1000: {
         items: 3
       },
       1400: {

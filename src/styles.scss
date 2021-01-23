@@ -31,7 +31,28 @@
     column-count: 2;
   }
 }
-//   @include media-breakpoint-only(xs) {
-//     column-count: 2;
-//   }
-// }
+
+// owl dot
+.owl-theme .owl-dots .owl-dot span {
+  width: 6px;
+  height: 6px;
+  margin: 5px 7px;
+  background: #A3A09D;
+  display: block;
+  -webkit-backface-visibility: visible;
+  transition: all .2s ease;
+  border-radius: 30px;
+}
+.owl-theme .owl-dots .owl-dot.active span {
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  background: #b18247;
+  display: block;
+  -webkit-backface-visibility: visible;
+  transition: all .2s ease;
+  border-radius: 30px;
+}
+.owl-dot{
+  vertical-align: middle;
+}

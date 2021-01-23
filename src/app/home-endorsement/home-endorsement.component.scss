@@ -19,22 +19,31 @@
         }
     }
    }
+//    global
 .homeEndorsementCard{
     width: 85%;
 }
+
 @media(min-width: 1200px){
     .homeEndorsementCard{
-        width: 85%;
+        width: 81%;
     }
 }
 @media(min-width: 992px) and (max-width:1199px){
     .homeEndorsementCard{
-        width: 95%;
+        width: 73%;
     }
 }
 @media (min-width: 768px){
+    // .homeEndorsementCard{
+    //     width: 80%;
+    // }
+    #homeEndorsement{
+        padding-bottom:4rem ;
+    }
 .container{
     #homeEndorsementContent{
+        padding-bottom: 2.5rem;
         #homeEndorsementTitle{
             padding-top: 3rem;
             text-align: center;
@@ -57,12 +66,20 @@
 }
 }
 @media (max-width: 767px){
+    #homeEndorsement{
+        padding-bottom:2rem ;
+    }
+    .homeEndorsementCard{
+        border-radius: 0.85rem !important;
+    }
 .container{
     #homeEndorsementContent{
+        padding-bottom: 1rem;
         #homeEndorsementTitle{
             text-align: center;
+            margin-top: 0.5rem;
             margin-bottom: 0.3rem;
-            padding-top: 0.8rem;
+            padding-top: 1rem;
             text-align: center;
             font-size: 0.7rem;
             letter-spacing: 0.1rem;
@@ -83,29 +100,41 @@
         }
     }
 }
-.homeEndorsementCard{
-    width: 70%;
-}
 }
 @media (max-width: 575px){
-// .container{
-//     #homeEndorsementContent{
-//         #homeEndorsementTitle{
+    #cardTitle{
+        line-height: 3.3rem !important;
+    }
+    #headShot{
+        width: 2.4rem !important;
+        height:2.4rem !important;
+    }
+    #name{
+        font-size: 0.7rem !important;
+    }
+.container{
+    #homeEndorsementContent{
+        #homeEndorsementTitle{
+            margin-top: 0.5rem;
 
-//         }
-//         #homeEndorsementSubTitle{
+        }
+        #homeEndorsementSubTitle{
 
-//         }
-//         #homeEndorsementTitleHr{
+        }
+        #homeEndorsementTitleHr{
 
-//         }
-//     }
-// } 
+        }
+    }
+} 
 .homeEndorsementCard{
     width: 365px;
 }
 }
 @media (max-width: 407px){
+    #cardContainer{
+        padding-left: 0.7rem;
+        padding-right: 0.7rem;
+    }
     .homeEndorsementCard{
         width: 100%;
     }
