@@ -19,7 +19,19 @@
         }
     }
    }
-
+.homeEndorsementCard{
+    width: 85%;
+}
+@media(min-width: 1200px){
+    .homeEndorsementCard{
+        width: 85%;
+    }
+}
+@media(min-width: 992px) and (max-width:1199px){
+    .homeEndorsementCard{
+        width: 95%;
+    }
+}
 @media (min-width: 768px){
 .container{
     #homeEndorsementContent{
@@ -71,19 +83,30 @@
         }
     }
 }
+.homeEndorsementCard{
+    width: 70%;
+}
 }
 @media (max-width: 575px){
-.container{
-    #homeEndorsementContent{
-        #homeEndorsementTitle{
+// .container{
+//     #homeEndorsementContent{
+//         #homeEndorsementTitle{
 
-        }
-        #homeEndorsementSubTitle{
+//         }
+//         #homeEndorsementSubTitle{
 
-        }
-        #homeEndorsementTitleHr{
+//         }
+//         #homeEndorsementTitleHr{
 
-        }
+//         }
+//     }
+// } 
+.homeEndorsementCard{
+    width: 365px;
+}
+}
+@media (max-width: 407px){
+    .homeEndorsementCard{
+        width: 100%;
     }
-} 
 }

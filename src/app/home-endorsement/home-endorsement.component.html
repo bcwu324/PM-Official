@@ -8,49 +8,30 @@
             </div>
             <div class="col-md-12 border ">
                 <owl-carousel-o [options]="customOptions">
-                    <ng-template carouselSlide>
-                        <div class="slide">
-                            <img src="https://via.placeholder.com/600/92c952" alt="img 1">
-                        </div>
-                    </ng-template>
-                    <ng-template carouselSlide>
-                        <div class="slide">
-                            <img src="https://via.placeholder.com/600/771796" alt="img 2">
-                        </div>
-                    </ng-template>
-                    <ng-template carouselSlide>
-                        <div class="slide">
-                            <img src="https://via.placeholder.com/600/24f355" alt="img 3">
-                        </div>
-                    </ng-template>
-                    <ng-template carouselSlide>
-                        <div class="slide">
-                            <img src="https://via.placeholder.com/600/d32776" alt="img 4">
-                        </div>
-                    </ng-template>
-                    <ng-template carouselSlide>
-                        <div class="slide">
-                            <img src="https://via.placeholder.com/600/f66b97" alt="img 5">
-                        </div>
-                    </ng-template>
-                    <ng-template carouselSlide>
-                        <div class="slide">
-                            <img src="https://via.placeholder.com/600/56a8c2" alt="img 6">
-                        </div>
-                    </ng-template>
-                    <ng-template carouselSlide>
-                        <div class="slide">
-                            <img src="https://via.placeholder.com/600/92c952" alt="img 1">
-                        </div>
-                    </ng-template>
-                    <ng-template carouselSlide>
-                        <div class="slide">
-                            <img src="https://via.placeholder.com/600/771796" alt="img 2">
-                        </div>
-                    </ng-template>
-                    <ng-template carouselSlide>
-                        <div class="slide">
-                            <img src="https://via.placeholder.com/600/24f355" alt="img 3">
+                    <ng-template carouselSlide *ngFor="let endorsement of endorsements">
+                        <div class="slide border" style="height: 430px;">
+                            <!-- <img src="https://via.placeholder.com/600/92c952" alt="img 1"> -->
+                            <div class="border h-100 m-auto homeEndorsementCard"
+                                style="background-color: white;border-radius: 1.2rem ;overflow: hidden;">
+                                <div class="border w-100 d-flex " style="line-height:3.8rem;">
+                                    <div class="border " style="width:25% ;vertical-align: middl;text-align: center;;">
+                                        <div class="border rounded-circle"
+                                            [ngStyle]="{'background-image': 'url('+ endorsement.headShotUrl + ')'}"
+                                            style="width: 2.8rem;height:2.8rem;vertical-align: middle;display: inline-block;background-position: center;background-size: cover;background-repeat: no-repeat;">
+                                        </div>
+                                    </div>
+                                    <div class="border text-truncate"
+                                        style="width: 50%;font-size: 0.8rem;font-weight: 600;">{{endorsement.name}}
+                                    </div>
+                                </div>
+                                <div class="border m-100 h-50"
+                                    [ngStyle]="{'background-image': 'url(' + endorsement.endorsementPicUrl + ')'}"
+                                    style="background-position: center;background-repeat: no-repeat;background-size: cover;">
+                                    <!-- <img class="img-fluid" src="../../assets/images/homePortfolio/兒童寫真.jpg" alt=""> -->
+                                </div>
+                                <p class="px-2 py-2 border" style="color:#767676;font-size: 0.7rem;">
+                                    {{endorsement.endorsementDescription}}</p>
+                            </div>
                         </div>
                     </ng-template>
                 </owl-carousel-o>
