@@ -1,0 +1,143 @@
+// container:
+@media (min-width: 1400px) { 
+    .container{
+        max-width: 1350px;
+    }
+ }
+  @media (min-width: 1700px) { 
+      .container{
+          max-width: 1650px;
+      }
+   }
+  @media (min-width: 1900px) { 
+      .container{
+          max-width: 1750px;
+      }
+      #homeServiceContent02{
+        #homeServiceImage{
+            width: 83%;
+        }
+    }
+   }
+//    global
+.place-card{
+    display: none;
+}
+iframe div div:nth-child(1){
+    display: none;
+}
+@media(min-width: 1200px){
+}
+@media(min-width: 992px) and (max-width:1199px){
+}
+@media (min-width: 768px){
+    #contactLeft,#contactRight{
+        margin-top: 3rem;
+        margin-bottom: 7rem;
+    }
+    #homeContact{
+        padding-bottom:4rem ;
+    }
+    .commumityLink{
+        a{
+            margin-top: 0.3rem !important;
+        }
+    }
+    #facebookLink,#igLink,#copyRight{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+.container{
+    #homeContactContent{
+        padding-bottom: 2.5rem;
+        #homeContactTitle{
+            padding-top: 3rem;
+            text-align: center;
+            font-size: 1rem;
+            letter-spacing: 0.18rem;
+        }
+        #homeContactSubTitle{
+            text-align: center;
+            font-size: 2.2rem;
+            letter-spacing: 0.2rem;
+        }
+        #homeContactTitleHr{
+            border: 0.1rem solid #b18247;
+            background-color: #b18247;
+            width: 5rem;
+            margin-top: 1rem;
+            margin: auto;
+        }
+    }
+}
+}
+@media (max-width: 767px){
+    #contactLeft,#contactRight{
+        margin-top: 1.5rem;
+        
+    }
+    #contactRight{
+       margin-bottom: 2rem; 
+    }
+    #homeContact{
+        padding-bottom:2rem ;
+    }
+    .commumityLink{
+        a{
+            line-height:1.3rem !important;
+        }
+    }
+    #facebookLink{
+        padding-top: 1.5rem;
+    }
+    #igLink{
+        padding-top: 4rem;
+    }
+    #copyRight{
+        padding-top: 6rem !important;
+    }
+.container{
+    #homeContactContent{
+        padding-bottom: 1rem;
+        #homeContactTitle{
+            text-align: center;
+            margin-top: 0.5rem;
+            margin-bottom: 0.3rem;
+            padding-top: 1rem;
+            text-align: center;
+            font-size: 0.7rem;
+            letter-spacing: 0.1rem;
+        }
+        #homeContactSubTitle{
+            margin-bottom: 0.4rem;
+            text-align: center;
+            letter-spacing: 0.2rem;
+            font-size: 1.3rem;
+        }
+        #homeContactTitleHr{
+            border: 0.07rem solid #b18247;
+            background-color: #b18247;
+            width: 3.5rem;
+            margin-top: 1rem;
+            margin: 0 auto;
+            margin-top: 0.6rem;
+        }
+    }
+}
+}
+@media (max-width: 575px){
+.container{
+    #homeContactContent{
+        #homeContactTitle{
+            margin-top: 0.5rem;
+
+        }
+        // #homeContactSubTitle{
+
+        // }
+        // #homeContactTitleHr{
+
+        // }
+    }
+} 
+}
