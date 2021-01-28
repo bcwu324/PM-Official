@@ -15,6 +15,7 @@ import { HomeContactComponent } from './home-contact/home-contact.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
     AppRoutingModule,
     NgbModule,
     BrowserAnimationsModule,
-    CarouselModule
+    CarouselModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
