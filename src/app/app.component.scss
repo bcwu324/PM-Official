@@ -18,7 +18,7 @@
   left: 50%;
   transform: translateX(-50%);
   border: 1px solid lightgray;
-  // overflow: hidden;
+  overflow: hidden;
   display: flex;
   justify-content: flex-end;
   
@@ -41,7 +41,8 @@
 .navInfoItem {
   border: 1px solid lightgray;
   width: 100%;
-  height: 100px;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,6 +83,8 @@
   }
   .topnav a:not(:first-child) {
     display: none;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
   }
   .topnav a.icon {
     display: inline-block;

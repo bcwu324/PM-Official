@@ -1,6 +1,6 @@
 <div class="navBar" [class]="topnavTo?'topnav topnavResponse':'topnav'" id="myTopnav">
   <a routerLink="/home" id="homeLogo" class="nav" (click)="onClick(1)">PM Studio</a>
-  <a routerLink="/home" [class]="tab==='tab1'?'active':'nav'" (click)="onClick(1)">首頁</a>
+  <a routerLink="/home" [class]="tab==='tab1'?'active':'nav'" (click)="onClick(1);">首頁</a>
   <a routerLink="/aboutus" [class]="tab==='tab2'?'active':'nav'" (click)="onClick(2)">關於我們</a>
   <a routerLink="/service" [class]="tab==='tab3'?'active':'nav'" (click)="onClick(3)">服務項目</a>
   <a routerLink="/portfolio" [class]="tab==='tab4'?'active':'nav'" (click)="onClick(4)">作品集</a>
@@ -9,17 +9,64 @@
   <a href="javascript:void(0);" class="icon" (click)="navToggle()">
     <i class="fas fa-bars"></i>
   </a>
-  <div id="navInfoId" [class]="navInfoTo?'navInfo navInfoShow':'navInfo'">
+  <div id="navInfoId" [class]="navInfoTo?'navInfo navInfoShow':'navInfo'" style="position: relative;">
+    <hr style="width: 70%;background-color:#E3C7A4;margin-top: 0.2rem;margin-bottom: 0.3rem;">
     <div class="navInfoItem">
-      <div style="width:50%;height:20px;border:1px solid green">01</div>
-      <div style="width:50%;height:20px;border:1px solid green">02</div>
-      <div style="width:50%;height:20px;border:1px solid green">03</div>
+      <div style="width:10rem;border:1px solid green;">
+        <div class="border"
+          style="width: 34px;height:34px;background-image: url(../assets/images/icon/facebook_brown.png);vertical-align: middle;display: inline-block;">
+        </div>
+        <span class="border" style="padding-left: 0.3rem;font-size: 0.8rem;color: #f3dec3;">Facebook
+          粉絲團
+        </span>
+      </div>
+      <div style="width:10rem;border:1px solid green;">
+        <div class="border" style="width: 34px;height:34px;vertical-align: middle;display: inline-block;">
+        </div>
+        <a href="#" class="color02 border"
+          style="padding-left: 0.4rem;display: inline-block;vertical-align: middle;text-decoration: underline;font-size: 0.7rem;margin-top: 0;padding:0;padding-left: 0.3rem;">PM
+          Baby 新生兒寫真 </a>
+      </div>
+      <div style="width:10rem;border:1px solid green;">
+        <div class="border" style="width: 34px;height:34px;vertical-align: middle;display: inline-block;">
+        </div>
+        <a href="#" class="color02 border"
+          style="padding-left: 0.4rem;display: inline-block;vertical-align: middle;text-decoration: underline;font-size: 0.7rem;margin-top: 0;padding:0;padding-left: 0.3rem;">PM
+          Studio 婚紗攝影 </a>
+      </div>
     </div>
     <div class="navInfoItem">
-      <div style="width:50%;height:20px;border:1px solid green">01</div>
-      <div style="width:50%;height:20px;border:1px solid green">02</div>
-      <div style="width:50%;height:20px;border:1px solid green">03</div>
+      <div style="width:10rem;border:1px solid green;">
+        <div class="border"
+          style="width: 34px;height:34px;background-image: url(../assets/images/icon/instagram_brown.png);vertical-align: middle;display: inline-block;">
+        </div>
+        <span class="border" style="padding-left: 0.3rem;font-size: 0.8rem;color: #f3dec3;">instagram</span>
+      </div>
+      <div style="width:10rem;border:1px solid green;">
+        <div class="border" style="width: 34px;height:34px;vertical-align: middle;display: inline-block;">
+        </div>
+        <a href="#" class="color02 border"
+          style="padding-left: 0.4rem;display: inline-block;vertical-align: middle;text-decoration: underline;font-size: 0.7rem;margin-top: 0;padding:0;padding-left: 0.3rem;">PM
+          Baby 新生兒寫真 </a>
+      </div>
+      <div style="width:10rem;border:1px solid green;">
+        <div class="border" style="width: 34px;height:34px;vertical-align: middle;display: inline-block;">
+        </div>
+        <a href="#" class="color02 border"
+          style="padding-left: 0.4rem;display: inline-block;vertical-align: middle;text-decoration: underline;font-size: 0.7rem;margin-top: 0;padding:0;padding-left: 0.3rem;">PM
+          Studio 婚紗攝影 </a>
+      </div>
     </div>
+    <!-- <div class="navInfoItem">
+      <div style="width:100%;border:1px solid green;margin-top: 2rem;">
+        <p style="text-align: center; color: #e3c7a4;font-size: 0.5rem;">Copyright © PM Studio All Rights Reserved.</p>
+      </div>
+    </div> -->
+    <p
+      style="text-align: center; color: #e3c7a4;font-size: 0.5rem;bottom: 0;position: absolute;text-align: center;width: 100%;">
+      Copyright © PM Studio
+      All Rights
+      Reserved.</p>
   </div>
 </div>
 

@@ -36,7 +36,9 @@ export class AppComponent {
     } else if (check == 6) {
       this.tab = 'tab6';
     }
-
+    this.topnavTo = false;
+    this.navInfoTo = false;
   }
+
 
 }
