@@ -56,3 +56,9 @@
 .owl-dot{
   vertical-align: middle;
 }
+#carouselContainer .owl-dots{
+  position: absolute;
+  bottom: 0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
