@@ -1,11 +1,17 @@
 <div class="navBar" [class]="topnavTo?'topnav topnavResponse':'topnav'" id="myTopnav" style="z-index: 100;">
   <a routerLink="/home" id="homeLogo" class="nav" (click)="onClick(1)">PM Studio</a>
-  <a routerLink="/home" [class]="tab==='tab1'?'active':'nav'" (click)="onClick(1);">首頁</a>
-  <a routerLink="/aboutus" [class]="tab==='tab2'?'active':'nav'" (click)="onClick(2)">關於我們</a>
-  <a routerLink="/service" [class]="tab==='tab3'?'active':'nav'" (click)="onClick(3)">服務項目</a>
-  <a routerLink="/portfolio" [class]="tab==='tab4'?'active':'nav'" (click)="onClick(4)">作品集</a>
-  <a routerLink="/qanda" [class]="tab==='tab5'?'active':'nav'" (click)="onClick(5)">常見 Q&A</a>
-  <a href="#about" [class]="tab==='tab6'?'active':'nav'" (click)="onClick(6)">聯絡我們</a>
+  <a routerLink="/home" [class]="tab==='tab1'?'active':'nav'" (click)="onClick(1);"
+    style="text-shadow: 1px 1px 1px gray;">首頁</a>
+  <a routerLink="/aboutus" [class]="tab==='tab2'?'active':'nav'" (click)="onClick(2)"
+    style="text-shadow: 1px 1px 1px gray;">關於我們</a>
+  <a routerLink="/service" [class]="tab==='tab3'?'active':'nav'" (click)="onClick(3)"
+    style="text-shadow: 1px 1px 1px gray;">服務項目</a>
+  <a routerLink="/portfolio" [class]="tab==='tab4'?'active':'nav'" (click)="onClick(4)"
+    style="text-shadow: 1px 1px 1px gray;">作品集</a>
+  <a routerLink="/qanda" [class]="tab==='tab5'?'active':'nav'" (click)="onClick(5)"
+    style="text-shadow: 1px 1px 1px gray;">常見 Q&A</a>
+  <a href="#about" [class]="tab==='tab6'?'active':'nav'" (click)="onClick(6)"
+    style="text-shadow: 1px 1px 1px gray;">聯絡我們</a>
   <a href="javascript:void(0);" class="icon" (click)="navToggle()">
     <i class="fas fa-bars"></i>
   </a>

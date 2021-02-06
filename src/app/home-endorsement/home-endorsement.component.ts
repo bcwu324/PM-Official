@@ -11,32 +11,32 @@ export class HomeEndorsementComponent implements OnInit {
   endorsements = [
     {
       name: 'B2 陳彥銘',
-      headShotUrl: 'assets/images/homePortfolio/個人藝術照.jpg',
-      endorsementPicUrl: 'assets/images/homePortfolio/新生兒寫真.JPG',
+      headShotUrl: 'assets/images/homeEndorsement/陳彥銘.jpg',
+      endorsementPicUrl: 'assets/images/homeEndorsement/陳彥銘作品.JPG',
       endorsementDescription: '果然拍照當天超開心，該出動的消毒東西帶了不少，紫光燈、酒精、隔離衣…而且衣服配件東西也不少，而且每個都有保母師執照，真不錯，默默的就在歡樂的4 小時中度過啦，真是一個開心的經驗'
     },
     {
       name: '茜茜 育兒生活好好玩',
-      headShotUrl: 'assets/images/homePortfolio/個人藝術照.jpg',
-      endorsementPicUrl: 'assets/images/homePortfolio/新生兒寫真.JPG',
+      headShotUrl: 'assets/images/homeEndorsement/茜茜育兒生活好好玩.jpg',
+      endorsementPicUrl: 'assets/images/homeEndorsement/茜茜育兒生活好好玩作品.jpg',
       endorsementDescription: '攝影團隊有攝影師、攝影助理，還有專門的安撫照護師來幫寶寶換衣服、安撫，如果拍攝中途餓了還會幫忙餵奶（好貼心）'
     },
     {
       name: 'Twins 大心小心',
-      headShotUrl: 'assets/images/homePortfolio/個人藝術照.jpg',
-      endorsementPicUrl: 'assets/images/homePortfolio/新生兒寫真.JPG',
+      headShotUrl: 'assets/images/homeEndorsement/Twins大心小心.jpg',
+      endorsementPicUrl: 'assets/images/homeEndorsement/Twins大心小心作品.jpg',
       endorsementDescription: '攝影團隊讓人感覺放鬆，拍起照來格外自在。現在回想起當天拍攝的過程，覺得攝影師好厲害，厲害在於快門不必按得多、而是精，張張到位，被拍的我們也不會被要求擺太多POSE、可以自然的呈現。'
     },
     {
       name: '茜茜 育兒生活好好玩',
-      headShotUrl: 'assets/images/homePortfolio/個人藝術照.jpg',
-      endorsementPicUrl: 'assets/images/homePortfolio/新生兒寫真.JPG',
+      headShotUrl: 'assets/images/homeEndorsement/黃彥鈞黃老斯.jpg',
+      endorsementPicUrl: 'assets/images/homeEndorsement/黃彥鈞黃老斯作品.JPG',
       endorsementDescription: '攝影團隊有攝影師、攝影助理，還有專門的安撫照護師來幫寶寶換衣服、安撫，如果拍攝中途餓了還會幫忙餵奶（好貼心）'
     },
     {
       name: 'Twins 大心小心',
-      headShotUrl: 'assets/images/homePortfolio/個人藝術照.jpg',
-      endorsementPicUrl: 'assets/images/homePortfolio/新生兒寫真.JPG',
+      headShotUrl: 'assets/images/homeEndorsement/Aiko愛可愛生活.jpg',
+      endorsementPicUrl: 'assets/images/homeEndorsement/Aiko愛可愛生活作品.jpg',
       endorsementDescription: '攝影團隊讓人感覺放鬆，拍起照來格外自在。現在回想起當天拍攝的過程，覺得攝影師好厲害，厲害在於快門不必按得多、而是精，張張到位，被拍的我們也不會被要求擺太多POSE、可以自然的呈現。'
     },
   ]
