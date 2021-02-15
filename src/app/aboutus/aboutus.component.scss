@@ -1,0 +1,42 @@
+@media (max-width:1200px){
+    #reservePhoto{
+        transform:translate(-50%,-15rem) !important;
+    }
+}
+@media (max-width: 992px) {
+    .banner{
+        margin-top: 3rem !important;
+    }
+    #aboutUsTitleHr{
+        margin-bottom: 1.5rem !important;
+    }
+    #brandStoryContainer{
+        margin:0 auto 1rem !important;
+    }
+    #reservePhoto{
+        transform:translate(-50%,-16rem) !important;
+        padding: 1rem !important;
+    }
+}
+@media (max-width: 768px) {
+    .brandStoryLogo{
+        margin-top: 3rem !important;
+    }
+    
+}
+@media (max-width: 576px) {
+    .banner{
+        margin-top: 2.5rem !important;
+    }
+    .brandStoryLogo{
+        margin-top: 1rem !important;
+    }
+    .brandStory,#teamMemberTitle,#reservePhotoTitle{
+        font-size: 1.3rem !important;
+        margin-bottom: 1rem !important;
+    }
+    #reservePhoto{
+        width: 90% !important;
+        transform:translate(-50%,-18rem) !important;
+    }
+}

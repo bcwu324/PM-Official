@@ -16,6 +16,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     HomePortfolioComponent,
     HomeEndorsementComponent,
     HomeContactComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
