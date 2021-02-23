@@ -1,3 +1,25 @@
+// container:
+@media (min-width: 1400px) { 
+    .container{
+        max-width: 1350px;
+    }
+ }
+  @media (min-width: 1700px) { 
+      .container{
+          max-width: 1650px;
+      }
+   }
+  @media (min-width: 1900px) { 
+      .container{
+          max-width: 1750px;
+      }
+      #homeServiceContent02{
+        #homeServiceImage{
+            width: 83%;
+        }
+    }
+   }
+
 @media (max-width: 992px) {
     .banner{
         margin-top: 3rem !important;
@@ -8,4 +30,16 @@
     .banner{
         margin-top: 2.5rem !important;
     }
+}
+.nav-item{
+    background-color: #ededed;
+    margin: 0.3rem;
+    margin-bottom: 1rem;
+    .active{background-color: #e3c7a4;
+
+    }
+}
+.nav-link{
+    color: #767676;
+    font-size: 0.8rem;
 }
