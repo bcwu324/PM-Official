@@ -26,6 +26,33 @@
         // margin-bottom: 1rem !important;
     }
 }
+@media (max-width: 768px) {
+    .banner{
+        margin-bottom: 2rem !important;
+    }
+    .nav {
+        margin-bottom: 1rem !important;
+    }
+    .nav li{
+        margin-left:0 !important;
+        margin-right: 0.3rem !important;
+        margin-bottom:0rem !important;
+        padding:0rem !important;
+    }
+    .nav a{
+        padding:0.3rem !important;
+
+    }
+    .underNavHr{
+        margin-bottom: 2rem !important;
+        margin-top: 0.5rem !important;
+    }
+    .serviceTitle,.title{
+        font-size: 1.1rem !important;
+        padding-left: 0.3rem !important;
+    }
+    
+}
 @media (max-width: 576px) {
     .banner{
         margin-top: 2.5rem !important;
@@ -43,3 +70,15 @@
     color: #767676;
     font-size: 0.8rem;
 }
+#notification li::before { 
+    content: "";
+    border-color: transparent #767676;
+    border-style: solid;
+    border-width: 0.2em 0 0.2em 0.3em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+  }
