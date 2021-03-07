@@ -1,0 +1,68 @@
+@media (min-width: 1400px) { 
+    .container{
+        max-width: 1350px;
+    }
+ }
+  @media (min-width: 1700px) { 
+      .container{
+          max-width: 1650px;
+      }
+   }
+  @media (min-width: 1900px) { 
+      .container{
+          max-width: 1750px;
+      }
+      #homeServiceContent02{
+        #homeServiceImage{
+            width: 83%;
+        }
+    }
+   }
+
+   .navv{
+      
+       text-align: center;
+       flex-grow: 1;
+       color: #b18247;
+       border: 1px solid #b18247;
+   }
+@media (max-width: 992px) {
+    .banner{
+        margin-top: 3rem !important;
+        // margin-bottom: 1rem !important;
+    }
+    .navContainer{
+        width: 100% !important;
+    }
+    
+}
+@media (max-width: 768px) {
+    .navv{
+        font-size: 0.8rem !important;
+    }
+    .navContainer{
+        margin-bottom: 1rem !important;
+    }
+    .cat{
+        font-size: 1rem;
+    }
+    .question{
+        font-size: 0.8rem !important;
+        padding: 0.5rem !important;
+    }
+    .accordion-item{
+        margin-bottom: 0.5rem !important;
+    }
+    .accordion-body{
+        font-size: 0.8rem !important;
+        padding-left: 0.8rem !important;
+        padding-right: 0.8rem !important;
+    }
+}
+@media (max-width: 576px) {
+    .navContainer div{
+        padding: 0.1rem;
+        
+    }
+    
+}

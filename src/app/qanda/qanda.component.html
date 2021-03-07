@@ -1,1 +1,33 @@
-<p>qanda works!</p>
+<div class="banner mb-5" style="margin-top: 4rem;">
+    <img class="img-fluid" src="assets/images/qanda/banner/qa-banner@2x.jpg" alt="">
+</div>
+<div class="container ">
+    <div class="navContainer w-75 mx-auto mb-5" style="display: flex;">
+        <div class="navv col-4  py-1" style="display: flex;align-items: center;justify-content: center;"
+            *ngFor="let qa of qAndA">
+            <div>{{qa.cat}}</div>
+        </div>
+    </div>
+    <div *ngFor="let qa of qAndA" class=" accordion" id="accordionExample">
+        <h5 class="cat" style="color: #b18247;">{{qa.cat}}</h5>
+        <div *ngFor="let list of qa.lists" class=" w-100 mb-4 accordion-item">
+            <div class="accordion-item w-100">
+                <h4 class="w-100" id="{{list.head}}" style="text-align: left;color: #d0d0d0;">
+                    <button class=" w-100 question" type="button" data-bs-toggle="collapse"
+                        attr.data-bs-target="#{{list.id}}" aria-expanded="true" attr.aria-controls="#{{list.id}}"
+                        style="background-color: white;border: 1px solid #d0d0d0;padding: 14px 49px 18px 50px;text-align: left;color: #767676;font-size: 1rem;font-weight: 600;">
+                        {{list.q}}
+                    </button>
+                </h4>
+                <div id="{{list.id}}" class="accordion-collapse collapse " attr.aria-labelledby="{{list.head}}"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body" style="color: #b18247;font-size: 0.9rem;padding: 14px 49px 18px 50px;">
+                        {{list.a}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<app-footer></app-footer>

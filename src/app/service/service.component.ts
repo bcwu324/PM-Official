@@ -83,7 +83,7 @@ export class ServiceComponent implements OnInit {
 
     {
       img: "assets/images/service/servicePhoto/pmWedding/copy-7@2x.png",
-      name: '蒂 米 琪 x PM 婚紗 拍 攝',
+      name: '蒂 米 琪 x PM 婚 紗 拍 攝',
       price: 'NT$58,000',
       list01: ['拍攝時間為 8hr (不含梳化時間)', '新娘拍照款禮服 3 套', '新郎拍照款西服 1 套', '新娘整體造型 3 款', '新郎整體造型 1 套', '精修照片 30 張', '皮革相本 1 本', '放大框或桌框 1 個', '風格調色檔案 USB 交件'],
       note: '',
