@@ -6,6 +6,7 @@ import { ServiceComponent } from './service/service.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { QandaComponent } from './qanda/qanda.component';
+import { ContactusComponent } from './contactus/contactus.component';
 const routerOptions: ExtraOptions = {
   scrollPositionRestoration: 'enabled',
   anchorScrolling: 'enabled',
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'portfolio', component: PortfolioComponent },
   { path: 'aboutus', component: AboutusComponent },
   { path: 'qanda', component: QandaComponent },
+  { path: 'contactus', component: ContactusComponent },
 ];
 
 @NgModule({

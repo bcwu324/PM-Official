@@ -1,0 +1,30 @@
+@media (min-width: 1400px) { 
+    .container{
+        max-width: 1350px;
+    }
+ }
+  @media (min-width: 1700px) { 
+      .container{
+          max-width: 1650px;
+      }
+   }
+  @media (min-width: 1900px) { 
+      .container{
+          max-width: 1750px;
+      }
+      #homeServiceContent02{
+        #homeServiceImage{
+            width: 83%;
+        }
+    }
+   }
+   
+@media (max-width: 992px) {
+    .banner{
+        margin-top: 3rem !important;
+        margin-bottom: 0rem !important;
+    }
+}
+#homeContactTitle{
+    color: red !important;
+}
