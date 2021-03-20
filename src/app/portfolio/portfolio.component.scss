@@ -1,0 +1,40 @@
+@media (min-width: 1400px) { 
+    .container{
+        max-width: 1350px;
+    }
+ }
+  @media (min-width: 1700px) { 
+      .container{
+          max-width: 1650px;
+      }
+   }
+  @media (min-width: 1900px) { 
+      .container{
+          max-width: 1750px;
+      }
+      #homeServiceContent02{
+        #homeServiceImage{
+            width: 83%;
+        }
+    }
+   }
+
+@media (max-width: 992px) {
+    .banner{
+        margin-top: 3rem !important;
+        // margin-bottom: 1rem !important;
+    }
+}
+@media (max-width: 768px) {
+    .banner{
+        margin-bottom: 2rem !important;
+    }
+}
+@media (max-width: 576px) {
+    .banner{
+        margin-top: 2.5rem !important;
+    }
+    .imageDes{
+        font-size: 0.9rem !important;
+    }
+}
