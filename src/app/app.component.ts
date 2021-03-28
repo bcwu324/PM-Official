@@ -21,6 +21,12 @@ export class AppComponent {
     this.topnavTo = !this.topnavTo;
     this.navInfoTo = !this.navInfoTo;
   };
+  refresh(): void {
+
+    setTimeout(() => {
+      location.reload();
+    }, 100);
+  }
   onClick(check) {
     //    console.log(check);
     if (check == 1) {

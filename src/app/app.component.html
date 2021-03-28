@@ -7,7 +7,7 @@
   <a routerLink="/service" [class]="tab==='tab3'?'active':'nav'" (click)="onClick(3)"
     style="text-shadow: 1px 1px 1px gray;">服務項目</a>
   <a routerLink="/portfolio" [class]="tab==='tab4'?'active':'nav'" (click)="onClick(4)"
-    style="text-shadow: 1px 1px 1px gray;">作品集</a>
+    style="text-shadow: 1px 1px 1px gray;" (mouseup)="refresh()">作品集</a>
   <a routerLink="/qanda" [class]="tab==='tab5'?'active':'nav'" (click)="onClick(5)"
     style="text-shadow: 1px 1px 1px gray;">常見 Q&A</a>
   <a routerLink="/contactus" [class]="tab==='tab6'?'active':'nav'" (click)="onClick(6)"

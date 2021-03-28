@@ -18,6 +18,15 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FooterComponent } from './footer/footer.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { PortfolioMenuComponent } from './portfolio-menu/portfolio-menu.component';
+import { PortfolioNewBornComponent } from './portfolio-new-born/portfolio-new-born.component';
+import { PortfolioFamilyComponent } from './portfolio-family/portfolio-family.component';
+import { PortfolioPregnantComponent } from './portfolio-pregnant/portfolio-pregnant.component';
+import { PortfolioWeddingComponent } from './portfolio-wedding/portfolio-wedding.component';
+import { PortfolioWedding2Component } from './portfolio-wedding2/portfolio-wedding2.component';
+import { PortfolioWeddingrecordComponent } from './portfolio-weddingrecord/portfolio-weddingrecord.component';
+import { PortfolioArtComponent } from './portfolio-art/portfolio-art.component';
+import { PortfolioPmalbumComponent } from './portfolio-pmalbum/portfolio-pmalbum.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +43,15 @@ import { ContactusComponent } from './contactus/contactus.component';
     HomeContactComponent,
     FooterComponent,
     ContactusComponent,
+    PortfolioMenuComponent,
+    PortfolioNewBornComponent,
+    PortfolioFamilyComponent,
+    PortfolioPregnantComponent,
+    PortfolioWeddingComponent,
+    PortfolioWedding2Component,
+    PortfolioWeddingrecordComponent,
+    PortfolioArtComponent,
+    PortfolioPmalbumComponent,
   ],
   imports: [
     BrowserModule,

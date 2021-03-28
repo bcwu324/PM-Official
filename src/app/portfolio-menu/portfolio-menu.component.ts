@@ -1,18 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-portfolio',
-  templateUrl: './portfolio.component.html',
-  styleUrls: ['./portfolio.component.scss']
+  selector: 'app-portfolio-menu',
+  templateUrl: './portfolio-menu.component.html',
+  styleUrls: ['./portfolio-menu.component.scss']
 })
-export class PortfolioComponent implements OnInit {
-  constructor() {
+export class PortfolioMenuComponent implements OnInit {
 
-  };
-  tab: string = '新生兒寫真';
-  showTabContent(clickedTab) {
-    this.tab = clickedTab
-  }
+  constructor() { }
   portfolioCover = [
     {
       name: '新生兒寫真',
@@ -47,7 +42,6 @@ export class PortfolioComponent implements OnInit {
       img: 'assets/images/portfolio/PMalbum.png',
     }
   ]
-
   ngOnInit(): void {
   }
 

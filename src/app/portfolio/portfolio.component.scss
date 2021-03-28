@@ -38,3 +38,36 @@
         font-size: 0.9rem !important;
     }
 }
+.estitle{
+    color:#b18247 !important
+}
+.albumCover{
+    margin-bottom: 1rem;
+}
+.nav-link{
+    color: #767676;
+    font-size: 0.8rem;
+}
+.nav-item{
+    background-color: #ededed;
+    margin: 0.3rem;
+    margin-bottom: 1rem;
+    .active{background-color: #e3c7a4;
+
+    }
+}
+@media (max-width: 768px) {
+    .nav {
+        margin-bottom: 1rem !important;
+    }
+    .nav li{
+        margin-left:0 !important;
+        margin-right: 0.3rem !important;
+        margin-bottom:0rem !important;
+        padding:0rem !important;
+    }
+    .nav a{
+        padding:0.3rem !important;
+
+    }
+}
