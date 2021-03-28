@@ -10,7 +10,7 @@ export class QandaComponent implements OnInit {
   constructor() { }
   qAndA = [
     {
-      cat: '新生兒、兒痛寫真',
+      cat: '新生兒、兒童寫真',
       lists: [
         {
           id: 'a01',
