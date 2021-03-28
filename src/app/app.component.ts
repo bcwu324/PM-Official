@@ -22,7 +22,6 @@ export class AppComponent {
     this.navInfoTo = !this.navInfoTo;
   };
   refresh(): void {
-
     setTimeout(() => {
       location.reload();
     }, 100);
