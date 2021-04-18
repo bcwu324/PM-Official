@@ -12,7 +12,7 @@ export class HomeEndorsementComponent implements OnInit {
     {
       name: 'B2 陳彥銘',
       headShotUrl: 'assets/images/homeEndorsement/yangming.jpg',
-      endorsementPicUrl: 'assets/images/homeEndorsement/yangmingPhoto.JPG',
+      endorsementPicUrl: 'assets/images/homeEndorsement/yangmingPhoto.jpg',
       endorsementDescription: '果然拍照當天超開心，該出動的消毒東西帶了不少，紫光燈、酒精、隔離衣…而且衣服配件東西也不少，而且每個都有保母師執照，真不錯，默默的就在歡樂的4 小時中度過啦，真是一個開心的經驗'
     },
     {
