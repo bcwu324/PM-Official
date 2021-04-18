@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePortfolioComponent implements OnInit {
   portfolios = [
-    { name: '新生兒寫真', url: 'assets/images/homePortfolio/新生兒寫真.JPG' },
+    { name: '新生兒寫真', url: 'assets/images/homePortfolio/新生兒寫真.jpg' },
     { name: '孕婦寫真', url: 'assets/images/homePortfolio/孕婦寫真.jpg' },
     { name: '婚禮紀錄', url: 'assets/images/homePortfolio/婚禮紀錄.jpg' },
     { name: '孕婦寫真', url: 'assets/images/homePortfolio/孕婦寫真2.jpg' },
