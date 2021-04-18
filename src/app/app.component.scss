@@ -10,10 +10,11 @@
 
 .topnav {
   // padding-top: 1rem;
-  width: 90%;
+  width: 100%;
+  background-image: linear-gradient(#ffffff2b, #b182472e);
   position: absolute;
   // transform: translateY(55px);
-  top:1rem;
+  top:0.75rem;
   left: 50%;
   transform: translateX(-50%);
   overflow: hidden;
@@ -127,11 +128,20 @@
   .topnav {
     top: 0;
     width: 100%;
-    height: 49.56px;
+    height: 48px;
     transition: height 0.4s;
   }
   .topnav.topnavResponse {
     height: 100vh;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .topnav {
+    top: 0;
+    width: 100%;
+    height: 41px;
+    transition: height 0.4s;
   }
 }
 
