@@ -10,27 +10,29 @@
                 <owl-carousel-o [options]="customOptions">
                     <ng-template carouselSlide *ngFor="let endorsement of endorsements">
                         <div id="cardContainer" class="slide " style="height: 470px;padding-bottom: 2rem;z-index: 1;">
-                            <div class=" h-100 m-auto homeEndorsementCard"
-                                style="background-color: white;-radius: 1.2rem ;overflow: hidden;box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.06);">
-                                <div id="cardTitle" class=" w-100 d-flex " style="line-height:3.8rem;">
-                                    <div class=" " style="width:25% ;vertical-align: middl;text-align: center;;">
-                                        <div id="headShot" class=" rounded-circle"
-                                            [ngStyle]="{'background-image': 'url('+ endorsement.headShotUrl + ')'}"
-                                            style="width: 2.8rem;height:2.8rem;vertical-align: middle;display: inline-block;background-position: center;background-size: cover;background-repeat: no-repeat;">
+                            <a [href]="endorsement.link" target="_blank">
+                                <div class=" h-100 m-auto homeEndorsementCard"
+                                    style="background-color: white;-radius: 1.2rem ;overflow: hidden;box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.06);">
+                                    <div id="cardTitle" class=" w-100 d-flex " style="line-height:3.8rem;">
+                                        <div class=" " style="width:25% ;vertical-align: middl;text-align: center;;">
+                                            <div id="headShot" class=" rounded-circle"
+                                                [ngStyle]="{'background-image': 'url('+ endorsement.headShotUrl + ')'}"
+                                                style="width: 2.8rem;height:2.8rem;vertical-align: middle;display: inline-block;background-position: center;background-size: cover;background-repeat: no-repeat;">
+                                            </div>
+                                        </div>
+                                        <div id="name" class=" text-truncate"
+                                            style="width: 50%;font-size: 0.8rem;font-weight: 600;">{{endorsement.name}}
                                         </div>
                                     </div>
-                                    <div id="name" class=" text-truncate"
-                                        style="width: 50%;font-size: 0.8rem;font-weight: 600;">{{endorsement.name}}
+                                    <div class=" m-100 h-50"
+                                        [ngStyle]="{'background-image': 'url(' + endorsement.endorsementPicUrl + ')'}"
+                                        style="background-position: center;background-repeat: no-repeat;background-size: cover;">
+                                        <!-- <img class="img-fluid" src="../../assets/images/homePortfolio/兒童寫真.jpg" alt=""> -->
                                     </div>
+                                    <p class="px-2 py-2 " style="color:#767676;font-size: 0.8rem;">
+                                        {{endorsement.endorsementDescription}}</p>
                                 </div>
-                                <div class=" m-100 h-50"
-                                    [ngStyle]="{'background-image': 'url(' + endorsement.endorsementPicUrl + ')'}"
-                                    style="background-position: center;background-repeat: no-repeat;background-size: cover;">
-                                    <!-- <img class="img-fluid" src="../../assets/images/homePortfolio/兒童寫真.jpg" alt=""> -->
-                                </div>
-                                <p class="px-2 py-2 " style="color:#767676;font-size: 0.8rem;">
-                                    {{endorsement.endorsementDescription}}</p>
-                            </div>
+                            </a>
                         </div>
                     </ng-template>
                 </owl-carousel-o>
