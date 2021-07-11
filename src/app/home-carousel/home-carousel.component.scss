@@ -2,3 +2,16 @@
     z-index: -1;
     background-color: white;
 }
+#carouselContainer{
+    margin-top: 4rem;
+}
+@media (max-width: 992px) {
+    #carouselContainer{
+        margin-top: 3rem !important;
+    }
+}
+@media (max-width: 576px) {
+    #carouselContainer{
+        margin-top: 2.5rem !important;
+    }
+}
