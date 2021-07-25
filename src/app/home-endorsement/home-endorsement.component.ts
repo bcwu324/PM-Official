@@ -76,8 +76,8 @@ export class HomeEndorsementComponent implements OnInit {
     {
       name: '黃彥鈞 黃老斯',
       link: 'https://www.facebook.com/969640466409294/posts/4601777209862250/?d=n',
-      headShotUrl: 'assets/images/homeEndorsement/黃彥鈞黃老斯.jpg',
-      endorsementPicUrl: 'assets/images/homeEndorsement/黃彥鈞黃老斯作品.jpg',
+      headShotUrl: 'assets/images/homeEndorsement/huang.jpg',
+      endorsementPicUrl: 'assets/images/homeEndorsement/huang2.jpg',
       endorsementDescription: '小櫻桃🍒Day18的全家福👪有她小公主的模樣、有灰姑娘的模樣（就是最後一張證件照啦），也有爸爸媽媽初為人父人母的樣子。這些珍貴的回憶，希望她可以看到100歲❤️攝影團隊是 #新生兒寫真 界很有名的 PM baby 攝影，團隊每個人都有 #保母證書（超厲害！）不僅是拍照，哄小孩技巧也高超到嚇到我們👍有人問寶寶這麼小能帶出門拍攝嗎？不不不，其實床就可以變成攝影棚唷！...<<看更多>>'
     },
     {
