@@ -30,16 +30,16 @@ export class ServiceComponent implements OnInit {
       list02: ['精修電子檔 $800/張', '假日拍攝需加價開棚費 $1,000'],
 
     },
-    {
-      img: "assets/images/service/servicePhoto/pregnant/copy-2@2x.png",
-      name: '孕 媽 咪 寫 真',
-      price: 'NT$6,800',
-      list01: ['精修 6 張電子檔(Google雲端交件)', '提供孕媽咪造型妝髮乙組', '可另外自備1-2套服裝', '建議拍攝週期為30-36週', '拍攝地點於 PM 室內攝影棚','成品皆由攝影師親自調色等專業影像後製'],
-      note: '',
-      plusItem: '加購項目',
-      list02: ['精修電子檔 $800/張',  '假日拍攝需加價開棚費 $1,000'],
+    // {
+    //   img: "assets/images/service/servicePhoto/pregnant/copy-2@2x.png",
+    //   name: '孕 媽 咪 寫 真',
+    //   price: 'NT$6,800',
+    //   list01: ['精修 6 張電子檔(Google雲端交件)', '提供孕媽咪造型妝髮乙組', '可另外自備1-2套服裝', '建議拍攝週期為30-36週', '拍攝地點於 PM 室內攝影棚','成品皆由攝影師親自調色等專業影像後製'],
+    //   note: '',
+    //   plusItem: '加購項目',
+    //   list02: ['精修電子檔 $800/張',  '假日拍攝需加價開棚費 $1,000'],
 
-    },
+    // },
     {
       img: "assets/images/service/servicePhoto/family/copy-3@2x.png",
       name: '全 家 福',
