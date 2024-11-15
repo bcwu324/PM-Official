@@ -51,16 +51,6 @@ export class ServiceComponent implements OnInit {
 
     },
     {
-      img: "assets/images/service/servicePhoto/professional/copy-4@2x.png",
-      name: '專 業 形 象 照',
-      price: 'NT$5,000',
-      list01: ['精修 5 張電子檔 (雲端傳檔交件)', '拍攝一套服裝', '拍攝時間為 30-60 分鐘', '棚內素色背景拍攝', '於 PM 室內素色背景攝影棚拍攝', '精修範圍為身形及膚況，恕不做合成'],
-      note: '如有特殊形象照用途需求，如特殊場景及道具等，須事前溝通後另外報價',
-      plusItem: '加購項目',
-      list02: ['精修電子檔 $800/張', '如需預約公司團隊專業形象照，請聯絡我們', '假日拍攝需加價開棚費 $1,000', '增加拍攝人數 $ 1,000 / 名 (不含妝髮)', '妝髮造型 $ 2,000 / 名 (淡妝自然髮型)'],
-
-    },
-    {
       img: "assets/images/service/servicePhoto/art/copy-5@2x.png",
       name: '藝 術 照',
       price: 'NT$10,800',

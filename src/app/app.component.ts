@@ -45,5 +45,9 @@ export class AppComponent {
     this.navInfoTo = false;
   }
 
+  openPortfolio() {
+    window.open('https://drive.google.com/drive/folders/16vySjdfK6YYYYA_tq8zw14KT7QMKzBQj?usp=share_link', '_blank');
+  }
+
 
 }
