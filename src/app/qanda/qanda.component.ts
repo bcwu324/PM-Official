@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { ApiService } from '../api.service';
 @Component({
   selector: 'app-qanda',
   templateUrl: './qanda.component.html',
@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class QandaComponent implements OnInit {
 
-  constructor() { }
+  constructor(private apiService: ApiService) { }
   qAndA = [
         {
           q: '多大算新生兒？',
@@ -51,6 +51,14 @@ export class QandaComponent implements OnInit {
         }
   ]
   ngOnInit(): void {
-  }
+  this.apiService.test('test').subscribe({
+    next: (data) => {
+      console.log('data:',data)
+    },
+    error: (err) => {
+      console.error('API 請求失敗', err);
+    }
+  });
+}
 
 }

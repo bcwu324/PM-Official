@@ -27,7 +27,7 @@ import { PortfolioWedding2Component } from './portfolio-wedding2/portfolio-weddi
 import { PortfolioWeddingrecordComponent } from './portfolio-weddingrecord/portfolio-weddingrecord.component';
 import { PortfolioArtComponent } from './portfolio-art/portfolio-art.component';
 import { PortfolioPmalbumComponent } from './portfolio-pmalbum/portfolio-pmalbum.component';
-
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -59,7 +59,8 @@ import { PortfolioPmalbumComponent } from './portfolio-pmalbum/portfolio-pmalbum
     NgbModule,
     BrowserAnimationsModule,
     CarouselModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
