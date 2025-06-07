@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "paths": {
+    "/qAndA": {
+      "name": "/qAndA",
+      "lambdaFunction": "pmofficial",
+      "permissions": {
+        "setting": "protected",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ],
+        "guest": [
+          "read"
+        ]
+      }
+    },
+    "/test": {
+      "name": "/test",
+      "lambdaFunction": "pmofficial",
+      "permissions": {
+        "setting": "protected",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ],
+        "guest": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}
