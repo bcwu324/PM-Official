@@ -8,7 +8,7 @@ import { ApiService } from '../api.service';
 export class QandaComponent implements OnInit {
 
   constructor(private apiService: ApiService) { }
-  qAndA = [
+  qAndA_BAK = [
         {
           q: '多大算新生兒？',
           a: '出生四個月以內都算新生兒，但建議 5-30 天左右拍攝，初生胎毛等痕跡較為明顯，身體也相對柔軟較能配合拍攝動作擺放。'
@@ -50,10 +50,11 @@ export class QandaComponent implements OnInit {
           a: '拍攝寶貝需要專注與安全，現場攝影燈具線材較多，為了安全以及不中斷團隊拍攝進度，現場是不開放側拍或側錄的喔！'
         }
   ]
+  qAndA:[]
   ngOnInit(): void {
-  this.apiService.test('test').subscribe({
+  this.apiService.getData('qAndA').subscribe({
     next: (data) => {
-      console.log('data:',data)
+      this.qAndA=data;
     },
     error: (err) => {
       console.error('API 請求失敗', err);

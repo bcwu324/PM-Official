@@ -16,7 +16,7 @@
       "function": {
         "pmofficial": {
           "deploymentBucketName": "amplify-pmofficial-dev-2aadc-deployment",
-          "s3Key": "amplify-builds/pmofficial-624b45575a4f43337a4e-build.zip"
+          "s3Key": "amplify-builds/pmofficial-4f795a6d31484c533071-build.zip"
         }
       },
       "auth": {

@@ -11,11 +11,8 @@ export class ApiService {
   constructor(private http: HttpClient) { }
 
     // GET 請求
-  test(endpoint: string): Observable<any> {
+  getData(endpoint: string): Observable<any> {
     return this.http.get(`${this.baseUrl}/${endpoint}`);
   }
 
-  getQandA(endpoint: string): Observable<any> {
-    return this.http.get(`${this.baseUrl}/${endpoint}`);
-  }
 }
