@@ -1,20 +1,5 @@
 {
-  "api": {
-    "pmOfficialApi": {
-      "dependsOn": [
-        {
-          "attributes": [
-            "Name",
-            "Arn"
-          ],
-          "category": "function",
-          "resourceName": "pmofficial"
-        }
-      ],
-      "providerPlugin": "awscloudformation",
-      "service": "API Gateway"
-    }
-  },
+  "api": {},
   "auth": {
     "pmofficial": {
       "dependsOn": [],

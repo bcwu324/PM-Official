@@ -58,43 +58,6 @@ exports.handler = async (event) => {
         }
     }
 
-    if (event.path === "/about" && event.httpMethod === "GET") {
-        const params = {
-            TableName: TABLE_NAME,
-            Key: {
-                pk: "about",
-                sk: "all"
-            }
-        };
-
-        try {
-            const result = await docClient.get(params).promise();
-            console.log('result:',result);
-            const about = result.Item || [];
-
-            return {
-                statusCode: 200,
-                headers: {
-                "Access-Control-Allow-Origin": "*",
-                "Access-Control-Allow-Headers": "*",
-                "Access-Control-Allow-Methods": "GET,POST,OPTIONS"
-            },
-                body: JSON.stringify(about)
-            };
-        } catch (err) {
-            console.error("DynamoDB get error", err);
-            return {
-                statusCode: 500,
-                headers: {
-                "Access-Control-Allow-Origin": "*",
-                "Access-Control-Allow-Headers": "*",
-                "Access-Control-Allow-Methods": "GET,POST,OPTIONS"
-            },
-                body: JSON.stringify({ error: "Failed to fetch data", details: err.message })
-            };
-        }
-    }
-
 
 
     return {

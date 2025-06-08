@@ -16,14 +16,11 @@
       "function": {
         "pmofficial": {
           "deploymentBucketName": "amplify-pmofficial-dev-2aadc-deployment",
-          "s3Key": "amplify-builds/pmofficial-4f795a6d31484c533071-build.zip"
+          "s3Key": "amplify-builds/pmofficial-3841775049585a526331-build.zip"
         }
       },
       "auth": {
         "pmofficial": {}
-      },
-      "api": {
-        "pmOfficialApi": {}
       }
     }
   }
