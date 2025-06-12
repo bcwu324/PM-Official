@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "paths": {
+    "/test": {
+      "name": "/test",
+      "lambdaFunction": "PMOfficialLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/about": {
+      "name": "/about",
+      "lambdaFunction": "PMOfficialLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/qAndA": {
+      "name": "/qAndA",
+      "lambdaFunction": "PMOfficialLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

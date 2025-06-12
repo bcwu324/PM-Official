@@ -6,7 +6,8 @@ import { Observable } from 'rxjs';  // 匯入 Observable，用來回傳資料流
 })
 export class ApiService {
 
-  private baseUrl = 'https://k48kr84wr6.execute-api.ap-southeast-1.amazonaws.com/dev'; 
+  // private baseUrl = 'https://k48kr84wr6.execute-api.ap-southeast-1.amazonaws.com/dev'; 
+  private baseUrl = 'https://t6vp59bn69.execute-api.ap-southeast-1.amazonaws.com/dev'; 
 
   constructor(private http: HttpClient) { }
 

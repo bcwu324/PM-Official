@@ -1,52 +1,42 @@
 {
-  "api": {},
-  "auth": {
-    "pmofficial": {
-      "dependsOn": [],
-      "frontendAuthConfig": {
-        "mfaConfiguration": "OFF",
-        "mfaTypes": [
-          "SMS"
-        ],
-        "passwordProtectionSettings": {
-          "passwordPolicyCharacters": [],
-          "passwordPolicyMinLength": 8
-        },
-        "signupAttributes": [
-          "EMAIL"
-        ],
-        "socialProviders": [],
-        "usernameAttributes": [],
-        "verificationMechanisms": [
-          "EMAIL"
-        ]
-      },
+  "api": {
+    "PMOfficialApi": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "PMOfficialLambda"
+        }
+      ],
       "providerPlugin": "awscloudformation",
-      "service": "Cognito",
-      "serviceType": "managed"
+      "service": "API Gateway"
     }
   },
   "function": {
-    "pmofficial": {
+    "PMOfficialLambda": {
       "build": true,
+      "dependsOn": [],
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     }
   },
   "parameters": {
-    "AMPLIFY_function_pmofficial_deploymentBucketName": {
+    "AMPLIFY_function_PMOfficialLambda_deploymentBucketName": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "pmofficial"
+          "resourceName": "PMOfficialLambda"
         }
       ]
     },
-    "AMPLIFY_function_pmofficial_s3Key": {
+    "AMPLIFY_function_PMOfficialLambda_s3Key": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "pmofficial"
+          "resourceName": "PMOfficialLambda"
         }
       ]
     }
