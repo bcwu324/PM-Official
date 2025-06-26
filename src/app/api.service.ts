@@ -16,4 +16,10 @@ export class ApiService {
     return this.http.get(`${this.baseUrl}/${endpoint}`);
   }
 
+      // PUT 請求
+  putData(endpoint: string, data: any): Observable<any> {
+    const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
+    return this.http.put(`${this.baseUrl}/${endpoint}`, data, { headers });
+  }
+
 }

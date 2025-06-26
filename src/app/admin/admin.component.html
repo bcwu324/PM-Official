@@ -1,0 +1,42 @@
+<div class="container">
+    <hr>
+    <section id="about">
+        <h3 class="mt-5">關於我們</h3>
+        <div class="d-flex align-items-center">
+            <h5 class="mb-0 text-warning">品牌故事</h5>
+            <button class="btn btn-success btn-sm ml-3 mb-1" (click)="updateBrandStory(brandStory)" >儲存資料</button>
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-6" *ngFor="let item of brandStory; let i = index trackBy: trackByIndex">
+                <textarea class="w-100" [(ngModel)]="brandStory[i]"></textarea>
+            </div>
+        </div>
+        <div class="d-flex align-items-center">
+            <h5 class="mb-0 text-warning">團隊經歷/理念</h5>
+            <button class="btn btn-success btn-sm ml-3 mb-1" (click)="updateExp(exp)">儲存資料</button>
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-6" *ngFor="let item of exp; let i = index">
+                <textarea class="w-100" [(ngModel)]="exp[i]"></textarea>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="qAndA">
+        <h3 class="mt-5">常見Q and A</h3>
+        <div class="d-flex align-items-center">
+            <h5 class="mb-0 text-warning">Q and A</h5>
+            <button class="btn btn-success btn-sm ml-3 mb-1" (click)="updateQa(qa)">儲存資料</button>
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-6" *ngFor="let item of qa; let i = index">
+                <small>Q{{i+1}}:</small><textarea class="w-100 text-info" [(ngModel)]="qa[i]['q']"></textarea>
+                <small>A{{i+1}}:</small><textarea class="w-100 text-danger" [(ngModel)]="qa[i]['a']"></textarea>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section>
+
+    </section>
+</div>

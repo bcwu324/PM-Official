@@ -15,7 +15,7 @@
       "function": {
         "PMOfficialLambda": {
           "deploymentBucketName": "amplify-pmofficial-dev-c7aa8-deployment",
-          "s3Key": "amplify-builds/PMOfficialLambda-762f6f4d745351477837-build.zip"
+          "s3Key": "amplify-builds/PMOfficialLambda-4841595a4f684266516d-build.zip"
         }
       },
       "api": {

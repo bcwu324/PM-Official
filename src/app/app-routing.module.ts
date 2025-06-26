@@ -15,7 +15,7 @@ import { PortfolioWedding2Component } from './portfolio-wedding2/portfolio-weddi
 import { PortfolioWeddingrecordComponent } from './portfolio-weddingrecord/portfolio-weddingrecord.component';
 import { PortfolioArtComponent } from './portfolio-art/portfolio-art.component';
 import { PortfolioPmalbumComponent } from './portfolio-pmalbum/portfolio-pmalbum.component';
-
+import { AdminComponent } from './admin/admin.component';
 const routerOptions: ExtraOptions = {
   scrollPositionRestoration: 'enabled',
   anchorScrolling: 'enabled',
@@ -42,6 +42,7 @@ const routes: Routes = [
   { path: 'aboutus', component: AboutusComponent },
   { path: 'qanda', component: QandaComponent },
   { path: 'contactus', component: ContactusComponent },
+  { path: 'admin', component: AdminComponent },
 ];
 
 @NgModule({

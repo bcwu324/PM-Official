@@ -9,11 +9,14 @@ import { ApiService } from '../api.service';
 export class AboutusComponent implements OnInit {
 
   constructor(private apiService: ApiService) { }
-  data:[]
+  brandStory=[];
+  exp=[];
   ngOnInit(): void {
     this.apiService.getData('about').subscribe({
     next: (data) => {
       console.log('data:',data)
+      this.brandStory=data.brandStory;
+      this.exp=data.exp;
     },
     error: (err) => {
       console.error('API 請求失敗', err);
